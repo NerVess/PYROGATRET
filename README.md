@@ -1,20 +1,11 @@
-# PYROGATRET
-pong is a table tennis-themed 2-player 2D arcade video game developed in the early 1970s. The game consists of two paddles/strikers, located at the left and right edges of the screen, and a ball.
+понг - это 2D-аркадная видеоигра на тему настольного тенниса для 2 игроков, разработанная в начале 1970-х годов. Игра состоит из двух паддлов / страйкеров, расположенных по левому и правому краям экрана, и мяча.
 
-Create a Pong Game in Python
-The basic theme of this game is to make sure that the ball doesn’t hit the wall behind you. If it does, the opponent scores a point. And if the ball touches the opponent’s wall, you score a point. This article covers how to create such a game in Python using the Pygame module. 
+Создайте игру в настольный теннис на Python
+Основная тема этой игры заключается в том, чтобы убедиться, что мяч не ударился о стену позади вас. Если это происходит, соперник получает очко. И если мяч коснется стены соперника, вы получите очко. В этой статье рассказывается о том, как создать такую игру на Python с помощью модуля Pygame. 
 
-Key Controls
-This is 2 player game and hence there will be two controllable paddles in the game. One at the leftmost edge of the screen and the other at the rightmost edge of the screen
+Ключевые элементы управления
+Это игра для 2 игроков, и, следовательно, в игре будет два управляемых весла. Один на самом левом краю экрана, а другой на самом правом краю экрана
 
-To control the left paddle, use the ‘s’ and ‘w’ keys. ‘w’ will move the paddle upwards and ‘s’ will move the paddle downwards
-To control the right paddle, use the UP and DOWN arrow keys. UP arrow will move the paddle upwards and the DOWN arrow will move the paddle downwards
-Implementation to Create a Pong Game in Python
-The game is developed in the Object Oriented Programming(OOP) style.
-
-Create a “Striker” (paddle) class that handles all the controls related to the player
-Create a “Ball” class that handles all the controls related to the ball
-Two objects of the Striker class, geek1, and geek2, are instantiated
-One object of the Ball class is instantiated.
-The “main” function acts as the game manager and controls the game logic and flow
-Initial Setup: This is the initial setup that consists of all the initializations and global variables that are needed
+Для управления левым веслом используйте клавиши ‘s’ и ‘w’. "w" переместит весло вверх, а "s" переместит весло вниз
+Чтобы управлять правым веслом, используйте клавиши со стрелками ВВЕРХ и ВНИЗ. Стрелка вверх переместит весло вверх, а стрелка ВНИЗ переместит весло вниз
+Реализация для создания Pong G
